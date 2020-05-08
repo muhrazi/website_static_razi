@@ -1,0 +1,788 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+
+
+body{
+    background-color:#a6c3c7;
+    
+   
+}
+
+div{
+    clear: right;
+}
+
+.container{
+    width:80%;
+    height: 1500px;
+    background-color:white;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow:0 1px 1px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);
+
+}
+
+.containeraboutus{
+    width:80%;
+    height: 1500px;
+    background-color:white;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow:0 1px 1px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);
+
+}
+
+.containercontactus{
+    width:80%;
+    height: 850px;
+    background-color:white;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow:0 1px 1px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);
+
+}
+
+.containerservices{
+    width:80%;
+    height: 900px;
+    background-color:white;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow:0 1px 1px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);
+
+}
+
+
+.menu{
+    width: 30%;
+    display: block;
+    background-color: white;
+    overflow: hidden;
+    float: left;
+    margin-left: 80px;
+
+}
+
+.menu h1 {
+    width: 50%;   
+    background: white; 
+    margin: 2px 0 ;
+    font-size: 18px;
+    color: black;
+      
+}
+
+.menu a {
+    font: 14px Open Sans, sans-serif;
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu :hover{
+    color: #a6c3c7;
+}
+
+.sidemenu{
+    font: 14px Open Sans, sans-serif;
+    width: 30%;
+    display: block;
+    background-color: white;
+    overflow: hidden;
+    float:right;
+    border-radius: 20px;
+    
+    
+    
+}
+.sidemenu ul {
+    list-style: none;
+    background-color: white;
+    
+}
+
+.sidemenu ul li{
+    float:left;
+    padding: 5px 0px;
+}
+
+.sidemenu ul li a {
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.sidemenu ul li :hover{
+    
+    color: #a6c3c7;
+}
+
+.header{
+    width:100%;
+    height:400px;
+    background-color: #deecec;
+    padding-top: 2px;
+
+
+}
+.satu{
+    width: 50%;
+    height: 400px;
+    background-color:#deecec;
+    float:left;
+}
+
+.satu h3{
+    text-align: center;
+    font: 35px Open Sans, sans serif ;
+    margin: 80px 0 0 0;
+    
+   
+}
+
+.satu button{
+    padding: 12px 20px;
+    border: 12px none;
+    cursor: pointer;
+    background-color: #52afbc;
+    margin: 60px 0 200px 40%;
+    font-weight: bold;
+    
+    
+}
+
+.satu button a{
+    text-decoration: none;
+    color: white;
+    
+
+
+}
+button:hover {
+    background-color: #43919c;
+    
+}
+    
+
+
+
+.dua{
+    
+    height:400px;
+    background-image: url(../images/header_low.jpg);
+    background-size: cover;
+    
+}
+
+.services{
+    width: 100%;
+    height: 300px;
+    background-color: #eeeeee ;
+    padding-bottom: 25px;
+}
+
+.servicesbar{
+    width: 1020px;
+    margin: 0 auto;
+    overflow: hidden;
+
+
+}
+
+.services h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.services h3{
+    text-align: center;
+    padding: 10px 15px;
+    
+}
+
+.servicessatu a{
+    text-decoration: none;
+    color:black;
+}
+.servicesdua a{
+    text-decoration: none;
+    color:black;
+}
+.servicestiga a{
+    text-decoration: none;
+    color:black;
+}
+
+.servicessatu{
+float:left;
+margin-left: 10%;
+
+
+}
+
+.servicessatu img{
+    width:200px;
+    height: 200px;
+    transition: transform .2s ease;
+        
+}
+
+.servicessatu img:hover{
+    transform: scale(1.1);
+        
+}
+
+.servicesdua{
+    float:left;
+    margin-left: 10%;
+    
+
+}
+
+.servicesdua img{
+    width:200px;
+    height: 200px;
+    transition: transform .2s ease;
+        
+}
+
+.servicesdua img:hover{
+    transform: scale(1.1);
+    
+}
+
+.servicestiga{
+    margin-left: 10%;
+    float:left;
+    
+        
+}
+
+.servicestiga img:hover{
+    transform: scale(1.1);
+}
+
+.servicestiga img{
+    width:200px;
+    height: 200px;
+    transition: transform .2s ease;
+    
+}
+
+.client{
+    width:100%;
+    height:220px;
+    background-color: #c1e8e8;
+    
+    
+
+}
+
+.clientimages{
+    width: 1020px;
+    
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+
+.client h2{
+    font-size: 34px;
+    text-align: center;
+}
+
+.client img{
+    width:200px;
+    height:47px;
+   
+    
+}
+
+.aboutus{
+    width:50%;
+    height:270px;
+    background-color: #ededed;
+    float:left;
+    
+    
+
+}
+.aboutus h2{
+    font: 30px tahoma;
+    padding: 10px 2px;
+    margin-left: 20px;
+    
+}
+
+.aboutus h3{
+        font: 16px tahoma;
+        padding: 10px 2px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+  }
+
+  .videos{
+    width: 50%;
+    height: 270px;
+    background-color: #ededed;
+    float: left;
+   
+
+  }
+
+  .videos video{
+    margin: 0 5%;
+
+  }
+
+  .gettouch{
+    width: 100%;
+    height: 400px;
+    background-color: #c1e8e8;
+    margin: 0 auto;
+
+  }
+
+  .gettouch h1{
+    font-size: 30px;
+    overflow: hidden;
+    padding: 50px;
+    width: 250px;
+    float: left;
+  }
+
+  .contact{
+      
+        padding: 12px 20px;
+        border: 12px none;
+        cursor: pointer;
+        background-color: #52afbc;
+        font-weight: bold;
+        margin: 50px 300px 0 ;
+        
+        
+    }
+    
+    .contact a{
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    .contact:hover {
+        background-color: #43919c;
+        
+    }
+
+
+
+  .footer{
+    width: 100%;
+    height: 980px;
+    box-sizing: border-box;
+    background-color: #c1e8e8;
+    
+
+  }
+
+  .footercontact{
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    background-color: #c1e8e8;
+    
+
+  }
+
+  .footera{
+    background-color: #c1e8e8;
+    width: 46%;
+    height: 630px;
+    padding-top: 10px;
+    padding-right: 2%;
+    padding-left: 2%;
+    float:left;
+    
+  }
+
+  .footera h1{
+    
+    font: 30px tahoma;
+    padding: 10px 2px;
+   
+    
+  }
+  .footera p{
+    width:80%;
+    font: 16px tahoma;
+    
+  }
+
+  label{
+      font-size: 16px;
+      font-weight: bold;
+  }
+
+  input[type=text]{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-weight: bold;
+  }
+
+  textarea{
+    width: 75%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+    
+  }
+
+  .footera button {
+   background-color: #52afbc;
+   color: white;
+   padding: 12px 20px;
+   border: 12px none;
+   cursor: pointer;
+
+  }
+
+  .footera button :hover {
+    background-color:#4799a4;
+    
+   }
+
+   .footerb{
+    background-color: #c1e8e8;
+    width:50%;
+    height: 630px;
+    padding-top: 10px;
+    float: left;
+
+   }
+
+   .footerb h1{
+        font: 16px tahoma;
+        color: red;
+        padding: 10px 0px;
+   }
+
+   .footerb h2{
+    font: 14px tahoma;
+    padding: 0 0 10px 0;
+    
+    }
+
+    .footerc{
+        width:100%;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .footerc h1{
+        font: 12px tahoma;
+        text-align: center;
+        padding: 15px 15px;
+    }
+
+
+
+
+    .work{
+        width: 100%;
+        height: 300px;
+        background-color: #eeeeee ;
+        padding-bottom: 25px;
+    }
+    
+    .work h1{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .work h3{
+        text-align: center;
+        padding: 10px 15px;
+        
+    }
+    
+    .worksatu a{
+        text-decoration: none;
+        color:black;
+    }
+    .workdua a{
+        text-decoration: none;
+        color:black;
+    }
+    .worktiga a{
+        text-decoration: none;
+        color:black;
+    }
+    
+    .worksatu{
+    float:left;
+    margin-left: 10%;
+    
+    
+    }
+    
+    .worksatu img{
+        width:200px;
+        height: 200px;
+        transition: transform .2s ease;
+            
+    }
+    
+    .worksatu img:hover{
+        transform: scale(1.1);
+            
+    }
+    
+    .workdua{
+        float:left;
+        margin-left: 10%;
+        
+    
+    }
+    
+    .workdua img{
+        width:200px;
+        height: 200px;
+        transition: transform .2s ease;
+            
+    }
+    
+    .workdua img:hover{
+        transform: scale(1.1);
+        
+    }
+    
+    .worktiga{
+        margin-left: 10%;
+        float:left;
+        
+            
+    }
+    
+    .worktiga img:hover{
+        transform: scale(1.1);
+    }
+    
+    .worktiga img{
+        width:200px;
+        height: 200px;
+        transition: transform .2s ease;
+        
+    }
+
+    .images {
+        width:100%;
+        height:400px;
+        background-image: url(../images/aboutus.jpg);
+        margin: auto;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        
+    }
+    .imagestext{
+        margin:0 26px;
+        width: 50%;
+        color:white;
+        padding: 85px 0;
+    }
+    .imagestext h1{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .imagestext h2{
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .about_header{
+        text-align: center;
+        width:100%;
+        margin:auto;
+        
+        background-color: #c1e8e8 ;
+    }
+
+    .about_header h1{
+        font-size: 44 px;
+        font-family: 'verdana', serif;
+        padding: 20px;
+    }
+
+    .about_header h2{
+        
+        font-size: 14px;
+        color:#1d1d1d;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+    .executive{
+        width:800px;
+        max-width: 800px;
+        box-sizing: border-box;
+        background-color: white;
+        margin: auto;
+        text-align: center;
+        padding: 15px 5px;
+    }
+
+    .executive h1{
+        font-size: 44 px;
+        font-family: 'verdana', serif;
+        padding: 20px;
+    }
+
+
+    
+    .menuex{
+    width:100%;
+    height:220px;
+    display: inline-block;
+    
+
+    }
+    .menuex ul{
+   width:680px;
+   
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+    .menuex li{
+        float: left;
+        list-style: none;
+        padding: 10px 10px;
+        
+
+    }
+    .menuex h2{
+        font-size: 14px;
+        text-align: center;
+        
+    }
+
+
+
+    .office{
+            width:100%;
+            height:500px;
+            background-color: #ededed;
+            clear: both;
+        
+        }
+
+    .maps{
+            width:50%;
+            height: 200px;
+            padding-top:10px;
+        
+            float:right;
+
+        }
+
+    .address{
+       width: 50%;
+       
+       float: left;
+       
+        
+    }
+
+    .address h3{
+        font-size: 28px;
+        font-style: ;
+        font-weight: bold;
+        width: 200px;
+        margin: 20px  
+    }
+
+    .address h1{
+        font-size: 20px;
+        width: 400px;
+        margin: 20px;
+        color: red;
+    }
+
+    .address h2{
+        font-size: 16px;
+        width: 400px;
+        margin: 20px  
+    }
+
+
+    .imagesservices {
+        width:100%;
+        height:400px;
+        background-image: url(../images/services.jpg);
+        margin: auto;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        
+    }
+    .imagesservicestext{
+        margin:0 26px;
+        width: 50%;
+        color:white;
+        padding: 85px 0;
+    }
+    .imagesservicestext h1{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .imagesservicestext h2{
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    
+    .work{
+    width: auto;
+    margin: 0 auto;
+    overflow: hidden;
+
+
+    }
+
+
+    
+    
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
